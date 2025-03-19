@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this if your default branch has a different name
+      - main  # Adjust this if your main branch is different
 
 permissions:
   contents: read
@@ -32,10 +32,10 @@ jobs:
       - name: Build project
         run: pnpm build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: dist  # Ensure this is the correct output directory
+          path: dist  # Ensure this is the correct build output directory
 
   deploy:
     needs: build
