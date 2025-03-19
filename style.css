@@ -1,0 +1,35 @@
+:root {
+    --slidev-theme-primary: #ff3e00; /* Match your ski resort theme */
+  }
+
+  .findings-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .findings-table th,
+  .findings-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .findings-table th {
+    background-color: var(--slidev-theme-primary);
+    color: white;
+  }
+
+  .plan-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .plan-table th,
+  .plan-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .plan-table th {
+    background-color: var(--slidev-theme-primary);
+    color: white;
+  }
