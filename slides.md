@@ -28,6 +28,10 @@ title: Digital Accessibility Evaluation - Ski Resort Website
   </span>
 </div>
 
+<div class="text-center">
+    <img src="./images/ua_logo.svg" width="100" alt="University of Aveiro logo" class="absolute bottom-0 -translate-x-1/2 left-1/2 mb-1">
+</div>
+
 ---
 layout: image-right
 image: images/0.png
@@ -554,3 +558,6 @@ layout: end
 ---
 
 # Thank You!
+
+This presentation is available at<br />
+[adc-prj1.pages.dev](https://adc-prj1.pages.dev)
